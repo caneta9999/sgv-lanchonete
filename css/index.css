@@ -1,0 +1,106 @@
+html{
+	position: relative;
+    height:100%;
+}
+*{
+	Font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+
+body{
+	height: 100%;
+	background: linear-gradient(to bottom, #e1e7fb 0%, #b4c3f6 100%);
+	margin: 0 0 60px 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+main > .container {
+    padding: 60px 15px 0;
+}
+
+.titulos,#nomeLanchonete,#nomeProjeto{
+    font-size: 30px;
+}
+.subtitulos{
+    font-size:25px;
+}
+.divIndexs,.divCadastros,.divListar{
+    text-align: center;
+    z-index: 1;
+}
+.cadastrosItem,.listagemItem{
+    font-size: 25px;
+}
+form{
+    display: inline-block;
+    border: 2px solid black;
+    padding: 5px;
+}
+input{
+    display: block
+}
+.inputSubmit{
+    margin-top: 5px;
+}
+#formLogout,#formAjuda{
+    border: 0px solid black;
+	padding:0px;
+	right: 8px;
+}
+#formAjuda{
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+#formLogout{
+    position:absolute;
+    right:20px;
+	float:right;
+}
+#formComandas{
+position: relative;
+
+}
+ul{
+	list-style-type: none; 
+}
+.push{
+ height: 156px;
+}
+footer {
+    clear: both;
+    position: relative;
+    margin-top: 0px;
+	height:70px;
+}
+table {
+	margin-left: auto;
+	margin-right: auto;
+}
+th, td {
+    padding: 4px;
+}
+th {
+    cursor: pointer;
+}
+th:hover {
+    background: white;
+}
+.page-navigation a {
+    margin: 0 2px;
+    display: inline-block;
+    padding: 3px 5px;
+    color: #ffffff;
+    background-color: #70b7ec;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .page-navigation a[data-selected] {
+    background-color: #3d9be0;
+  }
